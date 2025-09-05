@@ -24,7 +24,7 @@ const app = Vue.createApp({
 
           {unit:'國立臺北大學公共事務學院院長',url:'https://new.ntpu.edu.tw/public-affairs/dean?lang=zh',name:'陳明燦',ename:'Ming-Can Chen',img:'陳明燦.png',field:'土地法、土地利用計畫法、土地重劃、土地徵收、法律經濟分析',cv1:'德國波昂大學農業政策研究所農學博士',cv2:'主持人Moderator'},
 
-          {unit:'立成功大學中國文學系教授',url:'https://traffic.tainan.gov.tw/StaticPage/ChiefIntroduction',name:'王銘德',ename:'Ming-De Wang',img:'王銘德.png',field:'交通',cv1:'國立交通大學交通運輸研究所博士',cv2:'發表人Presenter'},
+          {unit:'臺南市政府交通局長',url:'https://traffic.tainan.gov.tw/StaticPage/ChiefIntroduction',name:'王銘德',ename:'Ming-De Wang',img:'王銘德.png',field:'交通',cv1:'國立交通大學交通運輸研究所博士',cv2:'發表人Presenter'},
 
           {unit:'前台北市都市發展局局長',url:'hhttps://zh.wikipedia.org/zh-tw/%E6%9E%97%E6%B4%B2%E6%B0%91',name:'林洲民',ename:'Citizen LIN',img:'林洲民.png',field:'交通',cv1:'國哥倫比亞大學建築及都市設計碩士',cv2:'發表人Presenter'},
 
