@@ -10,7 +10,7 @@ const app = Vue.createApp({
 
           {unit:'國立成功大學都市計劃學系教授',url:'https://www.up.ncku.edu.tw/portfolio-item/%E8%B6%99%E5%AD%90%E5%85%83/',name:'趙子元',ename:'Tzu-Yuan Chao',img:'趙子元.png',field:'國土規劃制度與法令、氣候變遷調適與環境法令、高齡友善城市規劃與行為研究、都市更新與開發',cv1:'英國諾丁漢大學營建環境學院博士',cv2:'發表人Presenter'},
 
-          {unit:'屏東縣政府城鄉發展處',url:'https://www.up.ncku.edu.tw/portfolio-item/%E9%99%B3%E5%BF%97%E5%AE%8F/',name:'陳志宏',ename:'Chih-Hung Chen',img:'陳志宏.png',field:'都市計畫、都市設計、都市更新、文化地景保存操作、鄉村地區整體規劃、都市形態研究',cv1:'德國德勒斯登工業大學工學博士',cv2:'發表人Presenter'},
+          {unit:'屏東縣政府城鄉發展處處長',url:'https://www.up.ncku.edu.tw/portfolio-item/%E9%99%B3%E5%BF%97%E5%AE%8F/',name:'陳志宏',ename:'Chih-Hung Chen',img:'陳志宏.png',field:'都市計畫、都市設計、都市更新、文化地景保存操作、鄉村地區整體規劃、都市形態研究',cv1:'德國德勒斯登工業大學工學博士',cv2:'發表人Presenter'},
 
           {unit:'臺南市政府地政局長',url:'https://land.tainan.gov.tw/cp.aspx?n=29653',name:'陳淑美',ename:'Shu-Mei Chen',img:'陳淑美.png',field:'不動產投資、不動產市場研究、不動產登記、住宅經濟與政策',cv1:'國立政治大學地政學研究所博士',cv2:'主持人Moderator'},
 
