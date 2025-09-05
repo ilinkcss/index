@@ -1,0 +1,622 @@
+
+   
+
+    /*圖片RWD*/
+
+    @media only screen and (min-width: 993px){
+        .slo2 {
+        display: none;
+        }
+        }
+    
+        @media only screen and (max-width: 992px){
+        .slo{
+           display: none;
+        }
+        }
+    
+        @media only screen and (max-width: 552px){
+        .cloudleft , .cloudright, .stickcloud{
+        display: none;
+        }
+        }
+    
+       
+     
+    
+        body{
+        font-family: 'Noto Serif TC', serif;
+    
+        }
+    
+        .navbar {
+            background-image: linear-gradient(180deg, #85cdd0,#ffffff);
+        background-color: #F4F2E4;
+        background-repeat: no-repeat;
+        background-position:center top;
+        margin: 0;
+        padding:0;
+        border:0;
+        background-size: cover;
+        z-index: 99;    
+        }
+    
+        .nav-item:hover{
+        border: 0.8px #20aab5 solid;
+    
+    
+        }
+    
+        .nav-link:hover{
+        color: #20aab5;
+    
+        }
+    
+        .navbar-brand{
+            margin: 0;
+        }
+    
+        .navbar-nav{
+        align-items: center;
+        }
+    
+        .nav-link{
+        color: #20aab5;
+        font-size: 17px;
+        font-weight: 300;
+        font-family: "kaisei-harunoumi", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+    
+        .navbarli{
+            font-size: 11px;
+        }
+    
+    
+        .navbar-active{
+        animation-fill-mode:both;
+        animation-name: fadeInDown;
+        animation-duration: 1s;
+    
+    
+        }
+        @keyframes fadeInDown{
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, -100%, 0);
+            -ms-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: none;
+            -ms-transform: none;
+            transform: none;
+        }
+        
+        }
+    
+        #banner,#about,#lineup,#agenda,#information,#contact{
+        padding-top: 70px;
+        padding-bottom: 100px;
+        }
+    
+    
+        #article{
+        background-color:#ffffff; 
+        }
+    
+    
+        #banner{
+        background-image: url(mainbg-12.jpg);
+        background-color:#F7F3DC; 
+        background-repeat: no-repeat;
+        background-position:center top;
+        margin: auto;
+        padding:0;
+        border:0;
+        background-size: cover;
+        max-width: 2300px;
+        }
+    
+    
+        /*banner樣式定位*/  
+        #banner .banner-content ul{
+        height: 900px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        }
+    
+        /*banner島鏈人文叢書定位*/  
+        #banner .banner-content ul>li:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        top: 9%;
+        right: unset;
+        bottom: unset;
+        left: 0;
+        z-index: 0;
+        }
+    
+    
+        #about{
+        background-color: white;
+        color:#014D7F;
+        content: "";
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: unset;
+        background-position:  top center;
+        }
+    
+        #lineup{ 
+           
+            background-image: linear-gradient(180deg, #85cdd0,#badfd5);
+            color:#014D7F;
+            content: "";
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: unset;
+            background-position: top center;
+            background-size: cover;
+            }
+        
+    
+            #information{ 
+                background-color:white;
+            
+            color:#014D7F;
+            content: "";
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: unset;
+            background-position: top center;
+            background-size: cover;
+            }
+        
+    
+        #footer{ 
+            background-image: linear-gradient(180deg, #85cdd0,#badfd5);
+        background-color: #F7F7EE;
+        color:#014D7F;
+        content: "";
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: unset;
+        background-position: top center;
+        background-size: cover;
+        }
+    
+       
+        
+        .footer{
+            background-image: linear-gradient(180deg, #85cdd0,#badfd5);
+        color:#F7F7EE;
+        content: "";
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: unset;
+        background-position: bottom center;
+        background-size: cover;
+        
+        
+        }
+       
+    
+    
+        .footer > p{
+        color:#20aab5;
+        letter-spacing: 2px;
+        line-height: 30px;
+        text-align: center;
+        }
+    
+       
+        .bi{
+        color: #20aab5;
+        font-size: 20px;
+        }
+    
+    
+        .bi-youtube:hover{
+        color: red;
+        }
+    
+        .bi-instagram:hover{
+        color:purple
+        }
+    
+        .bi-spotify:hover{
+        color:purple
+        }
+    
+        .bi-facebook:hover{
+        color:royalblue
+        }
+        
+        .activitybarpic{
+            width: 60px;
+        }
+    
+        .activitybarpic:hover{
+           opacity: 0.9;
+        }
+    
+        a{
+        text-decoration: none;
+        }
+    
+        h3{
+        font-size: 35px;
+        color:#20aab5;
+        text-align: left;
+        font-weight: 700;
+        font-family: "kaisei-harunoumi", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+    
+        p{
+        color: gray;
+        font-size: 16px;
+        line-height: 35px;
+        letter-spacing: 2px;
+        }
+    
+        .fc-head {
+        vertical-align: middle;
+        background: #B69664;
+        border: none;
+        color: #ffff;
+        margin-bottom: .2em;
+        margin-top: .2em;
+        
+        }
+        .fc button {
+        background: #F7F3DC;
+        }
+    
+       
+      
+    
+       .btn-primary {
+        border-color: #F7F3DC  !important;
+        background-color: #BE907F;
+        color:white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-family: "kaisei-harunoumi", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        vertical-align: baseline;
+        }
+    
+        .btn-primary:hover{
+        background-color: #68522e !important;
+        color:#F7F3DC  !important;
+        }
+    
+        .fc-content{
+        white-space: break-spaces;
+        }
+    
+        .activitybar{
+        padding-top: 5px;
+        right: 0px;
+        position: fixed;
+        top:40%;
+        z-index: 999;
+        writing-mode: vertical-lr ;
+        vertical-align: baseline;
+        }
+    
+        .activitybar2{
+           
+            padding-top: 5px;
+            right: 0px;
+            position: fixed;
+            top:60%;
+            z-index: 999;
+            writing-mode: vertical-lr ;
+            vertical-align: baseline;
+            }
+    
+        
+        
+    
+        .fc-day-grid-event .fc-content {
+        white-space: break-spaces  !important;
+        }
+    
+        .fc-unthemed td.fc-today {
+        background-color: #e9d3af !important;
+        }
+    
+        .span_group{
+            text-align:center;
+            color: black;
+    
+        }
+    
+        .spon{
+          height: 80px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+    
+        .spanBox > span{
+            font-size: 14px;
+            color: white;
+        }
+            
+    
+        .tab-container {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+    
+        .tab-buttons {
+           text-align: right;
+    
+        }
+        
+     
+        .tab-button {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background-color: #F7F7EE;
+            transition: background-color 0.3s;
+            border-radius: 50px;
+            color:gray ;
+            transition: background-color 0.3s;
+            font-size: 12px;
+            
+    
+        }
+        
+        .tab-button:hover {
+            background-color: #85cdd0;
+            color: white;
+        }
+        
+        .tab-button.active {
+            background-color: #85cdd0;
+          
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+            padding: 20px;
+        
+            border-top: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        td{
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 20px;
+            padding: 10px;
+            border: 1px solid
+          }
+      
+          .tabfo {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+            
+      
+       
+          }
+      
+          tr:hover {
+            background-color: #f5f5f5;
+          }
+        
+    
+          .h3span{
+              font-size: 14px;
+    
+          }
+          .tobody{
+            background-color:#85cdd0;
+            color: white;
+          }
+    
+          .inspan{
+              font-weight: 700;
+              font-size: 16px;
+          }
+    
+    
+          tr , td{
+              border: 1px #85cdd0 solid;
+              color: gray;
+              font-size: 14px;
+              
+          }
+    
+          .losp{
+              color: #85cdd0;
+              font-family: "kaisei-harunoumi", sans-serif;
+              font-weight: 700;
+              font-style: normal;
+          }
+    
+    
+            /* 回到頂部按鈕樣式 */
+            #topBtn {
+                display: none; /* 隱藏按鈕 */
+                position: fixed; /* 固定位置 */
+                bottom: 20px; /* 距底部20px */
+                right: 30px; /* 距右側30px */
+                z-index: 99; /* 確保按鈕在最上層 */
+                border: none; /* 無邊框 */
+                outline: none; /* 無外邊框 */
+                background-color: #85cdd0; /* 背景顏色 */
+                color: white; /* 字體顏色 */
+                cursor: pointer; /* 鼠標樣式 */
+                padding: 10px; /* 內邊距 */
+                border-radius: 30px; /* 圓角邊框 */
+            }
+    
+            #topBtn:hover {
+                background-color: #badfd5; /* 懸停時的背景顏色 */
+            }
+    
+            
+            .host{
+                display: inline-block;
+                width: 100%;
+                vertical-align: top;
+                text-align: center;
+                cursor: pointer;
+                line-height: 28px;
+                cursor: pointer;
+                overflow: hidden;
+                
+                
+    
+            }
+    
+    
+            .head_cover{
+                display: inline-block;
+                width: 100%;
+                transform:scale(1);
+                transition: all 1s ;ease-out;
+               
+            
+            }
+    
+            .head_cover:hover{
+                transform:scale(1.1);
+            
+            }
+    
+             
+    
+            .host_info{
+            float: left;
+            width: 100%;
+     
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 20px;
+            text-align: center;
+            height: 165px;
+            
+            }
+            .host_name{
+            float: left;
+            width: 100%;
+            font-size: 26px;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            font-weight: 800;
+            font-family: "kaisei-harunoumi", sans-serif;
+            font-style: normal;
+            }
+    
+            .host_ename{
+            float: left;
+            width: 100%;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            font-weight: 700;
+            font-family: "kaisei-harunoumi", sans-serif;
+            font-style: normal;
+            }
+    
+    
+            .host_title{
+            display: inline-block;
+            width: 100%;
+            font-size: 14px;
+            color: white;
+            
+            }
+            li{
+            float: left;
+            list-style: none;
+            
+            }
+    
+            .swiper-slide{
+              
+                padding: 0px;
+            }
+    
+    
+            .modal-content{
+                background-image: linear-gradient(180deg, #85cdd0,#badfd5);
+                color: white;
+            }
+            .modal-title{
+                font-weight: 700;
+                font-family: "kaisei-harunoumi", sans-serif;
+                font-style: normal;
+            
+            }
+    
+            .modal-body-p{
+                color: white;
+                font-size: 14px;
+                line-height: 30px;
+            }
+    
+            .btn-secondary{
+                background-color: #85cdd0;
+                border: 1px white solid;
+                font-size: 14px;
+            }
+            .btn-secondary:hover{
+                background-color: #badfd5;
+                
+            }
+    
+            .btn-clos{
+                background-color: white;
+            }
+    
+            .img-fluid{
+                height: 100%;
+                max-width: 150px; 
+                margin-right: 20px;
+            }
+                
+            .cv2{
+                background-color: #85cdd0;
+                color: white;
+                position: absolute;
+                top:53%;
+                left: 15%;
+                z-index: 99;
+                padding: 0px 15px;
+                border: 1px white solid;
+                border-radius: 20px;
+                font-size: 12px;
+            }
+    
+            
