@@ -28,8 +28,20 @@ const app = Vue.createApp({
 
           {unit:'前台北市都市發展局／局長',url:'hhttps://zh.wikipedia.org/zh-tw/%E6%9E%97%E6%B4%B2%E6%B0%91',name:'林洲民',ename:'Citizen LIN',img:'林洲民.png',field:'交通',cv1:'國哥倫比亞大學建築及都市設計碩士',cv2:'發表人Presenter'},
 
-          {unit:'仲量聯行／前總經理',url:'https://www.up.ncku.edu.tw/portfolio-item/%E8%B6%99%E6%AD%A3%E7%BE%A9/',name:'趙正義',ename:'Jheng-Yi Jhao',img:'趙正義.png',field:'不動產財務規劃、市場評估、不動產估價、土地開發策略規劃、不動產招商、物業管理、都市更新、促參及聯合開發投資規劃',cv1:'美國威斯康辛大學都市及區域規劃碩士',cv2:'發表人Presenter'},
-            activityList2026: [  
+          {unit:'臺北市、桃園市、高雄市促進民間參與公共建設推動委員會／委員',url:'https://www.up.ncku.edu.tw/portfolio-item/%E8%B6%99%E6%AD%A3%E7%BE%A9/',name:'趙正義',ename:'Jheng-Yi Jhao',img:'趙正義.png',field:'不動產財務規劃、市場評估、不動產估價、土地開發策略規劃、不動產招商、物業管理、都市更新、促參及聯合開發投資規劃',cv1:'美國威斯康辛大學都市及區域規劃碩士',cv2:'發表人Presenter'},
+
+        
+  
+         
+    
+  
+        
+  
+  
+         
+  
+
+          ], activityList2026: [  
             {url:'101801.jpg',img:'101801.jpg'},
             {url:'101802.jpg',img:'101802.jpg'},
             {url:'101803.jpg',img:'101803.jpg'},
@@ -75,20 +87,8 @@ const app = Vue.createApp({
 
             
 
-           ],
-
-        
-  
-         
-    
-  
-        
-  
-  
-         
-  
-
-         
+           ]
+          ,
       };
     },
     methods: {
