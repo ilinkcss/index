@@ -146,6 +146,25 @@
     </a>
   </div>
 
+    <div id="app">
+   
+    
+      <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="2000" style="padding-top: 20px;">
+        <div class="swiper-wrapper">
+          <ul class="swiper-slide" v-for="(x, index) in activityList2026.slice(0,40)" :key="index">
+          
+              <div class="host" dataimg="images/host1_clr.png" datades="">
+              
+                <a :href="x.url" target="_blank" >
+                <img :src="x.img" class="head_cover">
+                </a>
+             
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
   
  
  <section id="about" >
@@ -175,7 +194,7 @@
   </section>
 
 
-    <div id="app">
+ 
       <section id="lineup">
         <h3 style="text-align: center; color: white;">
           論壇與會人 <span class="h3span">Attendees</span>
@@ -565,7 +584,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.global.min.js" integrity="sha512-gEM2INjX66kRUIwrPiTBzAA6d48haC9kqrWZWjzrtnpCtBNxOXqXVFEeRDOeVC13pw4EOBrvlsJnNr2MXiQGvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js."></script>
   <script src="gstone.js"></script>
