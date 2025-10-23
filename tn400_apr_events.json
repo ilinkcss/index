@@ -1,0 +1,20 @@
+{
+  "month": "04月",
+  "count": 2,
+  "events": [
+    {
+      "title": "臺南400農漁地景藝術節-生生萬物:戶外裝置藝術展",
+      "category": "永續農業",
+      "time_range": "2024/10/15 ~ 2025/04/30",
+      "detail_path": "index.php?inter=event&moon=4&cid=0&did=97",
+      "image": "upload/exhibit/202410180919215953.png"
+    },
+    {
+      "title": "街道美術館 – 城市的故事 • 從這裡開始",
+      "category": "創新城事",
+      "time_range": "2024/07/13 ~ 2026/07/13",
+      "detail_path": "index.php?inter=event&moon=4&cid=0&did=26",
+      "image": "upload/exhibit/202406111948385904.png"
+    }
+  ]
+}
